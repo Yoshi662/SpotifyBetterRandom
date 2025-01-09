@@ -1,0 +1,12 @@
+﻿services:
+  spotifybetterrandom:
+    image: spotifybetterrandom
+    build:
+      context: .
+      dockerfile: SpotifyBetterRandom/Dockerfile
+
+  betterrandom2:
+    image: betterrandom2
+    build:
+      context: .
+      dockerfile: ../SpotifyBetterRandom_2/BetterRandom2/Dockerfile
